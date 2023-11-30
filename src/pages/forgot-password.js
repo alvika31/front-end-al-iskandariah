@@ -57,7 +57,6 @@ const ForgotPassword = () => {
                             required
                             autoFocus
                         />
-
                         <InputError messages={errors.email} className="mt-2" />
                     </div>
 
