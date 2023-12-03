@@ -12,14 +12,14 @@ const Footer = ({ IconBrandYoutube, IconBrandInstagram, IconMapPinFilled }) => {
                     </div>
                     <div className="md:w-1/3">
                         <h1 className="font-bold text-lg">Alamat Masjid:</h1>
-                        <p className="mt-5 text-sm inline-flex gap-x-3">
+                        <p className="mt-5 font-light text-sm inline-flex gap-x-3">
                             <IconMapPinFilled /> Bojongmanggu, Kec. Pameungpeuk,
                             Kabupaten Bandung, Jawa Barat 40376
                         </p>
                     </div>
                     <div className="md:w-1/3 md:ml-20">
                         <h1 className="font-bold text-lg">Tentang:</h1>
-                        <p className="mt-5 text-sm inline-flex gap-x-3">
+                        <p className="mt-5 font-light text-sm inline-flex gap-x-3">
                             Selamat Datang Di Website Resmi Masjid Al -
                             Iskandariah. Memberdayakan Umat Dan Menyuarakan
                             Moderasi Islam.

@@ -1,7 +1,7 @@
 export const MenuMobile = ({ menuMobile }) => {
     return (
         <div
-            className={`md:hidden fixed w-full h-screen bg-green-600 transform transition-transform ease-in-out duration-300 ${
+            className={`md:hidden fixed w-full h-screen bg-green-600 transform transition-transform ease-in-out duration-300 z-10 ${
                 menuMobile
                     ? 'translate-x-0'
                     : '-translate-x-full md:translate-x-0'
@@ -31,7 +31,7 @@ export const MenuMobile = ({ menuMobile }) => {
 
 export const MenuDekstop = () => {
     return (
-        <div className="hidden md:block ">
+        <div className="hidden md:block z-10">
             <ul className="flex gap-x-5 text-sm font-normal text-black ">
                 <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
                     Home
