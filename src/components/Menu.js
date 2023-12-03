@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export const MenuMobile = ({ menuMobile }) => {
     return (
         <div
@@ -8,12 +10,18 @@ export const MenuMobile = ({ menuMobile }) => {
             }`}>
             <div>
                 <ul className="flex flex-col gap-y-3 pt-10 px-4 text-sm font-normal text-white">
-                    <li className="hover:bg-green-700 hover:text-white p-3 rounded-md transition duration-500 ease-in-out">
-                        Home
-                    </li>
-                    <li className="hover:bg-green-700 hover:text-white p-3 rounded-md transition duration-500 ease-in-out">
-                        Tentang
-                    </li>
+                    <Link href="/staging">
+                        <li className="hover:bg-green-700 hover:text-white p-3 rounded-md transition duration-500 ease-in-out">
+                            Home
+                        </li>
+                    </Link>
+
+                    <Link href="/tentang">
+                        <li className="hover:bg-green-700 hover:text-white p-3 rounded-md transition duration-500 ease-in-out">
+                            Tentang
+                        </li>
+                    </Link>
+
                     <li className="hover:bg-green-700 hover:text-white p-3 rounded-md transition duration-500 ease-in-out">
                         Jadwal Kegiatan
                     </li>
@@ -33,12 +41,17 @@ export const MenuDekstop = () => {
     return (
         <div className="hidden md:block z-10">
             <ul className="flex gap-x-5 text-sm font-normal text-black ">
-                <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
-                    Home
-                </li>
-                <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
-                    Tentang
-                </li>
+                <Link href="/staging">
+                    <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
+                        Home
+                    </li>
+                </Link>
+
+                <Link href="/tentang">
+                    <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
+                        Tentang
+                    </li>
+                </Link>
                 <li className="hover:bg-green-700 hover:text-white p-2 rounded-md transition duration-500 ease-in-out">
                     Jadwal Kegiatan
                 </li>

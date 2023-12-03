@@ -49,7 +49,7 @@ const SliderHero = () => {
                         backgroundImage: 'url(https://placekitten.com/800/401)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        height: '700px',
+                        height: '300px',
                     }}
                     className="w-full"
                 />
@@ -60,7 +60,7 @@ const SliderHero = () => {
                         backgroundImage: 'url(https://placekitten.com/800/401)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        height: '700px',
+                        height: '300px',
                     }}
                     className="w-full"
                 />
@@ -71,7 +71,7 @@ const SliderHero = () => {
                         backgroundImage: 'url(https://placekitten.com/800/401)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        height: '700px',
+                        height: '300px',
                     }}
                     className="w-full"
                 />
@@ -79,10 +79,10 @@ const SliderHero = () => {
             <div>
                 <div
                     style={{
-                        backgroundImage: 'url(https://placekitten.com/800/401)',
+                        backgroundImage: 'url(https://arahmuslim.id/wp-content/uploads/2022/02/IMG_18062021_210354__822_x_430_piksel_.jpg)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        height: '700px',
+                        height: '300px',
                     }}
                     className="w-full"
                 />
